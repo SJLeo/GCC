@@ -33,16 +33,16 @@
 
 ### Pretrained Model
 
-We provide a list of pre-trained models in [link](https://drive.google.com/drive/folders/1lDSguCuRDKl2bKQzAuc8hR-UE7eTqWvW?usp=sharing).
+We provide a list of pre-trained models in [link](https://drive.google.com/drive/folders/1JvAA4Oda_cFbSA5lRdeUZgT1C70IHmgH).
 
 ### Pre-Training For Pruning
 
-Run the following script to pretrain a pix2pix on cityscapes dataset for generator pruning, 
+- Run the following script to pretrain a pix2pix on cityscapes dataset for generator pruning, 
 all scripts for sagan, cyclegan, pix2pix, srgan can be found in ./scripts
 
-```shell
-bash scripts/pix2pix/pretrain_for_pruning.sh
-```
+  ```shell
+  bash scripts/pix2pix/pretrain_for_pruning.sh
+  ```
 
 
 ### Training
