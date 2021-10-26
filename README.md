@@ -1,4 +1,4 @@
-# Revisiting Discriminator in GAN Compression: A Generator-discriminator Cooperative Compression Scheme
+# Revisiting Discriminator in GAN Compression: A Generator-discriminator Cooperative Compression Scheme(NeurIPS2021)
 
 ## Overview
 
