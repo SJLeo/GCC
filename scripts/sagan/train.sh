@@ -1,0 +1,16 @@
+python3 train.py \
+--dataroot ./database/celeb/ \
+--model sagan \
+--ngf 48 \
+--ndf 64 \
+--scale_prune \
+--pretrain_path ./experiments/celeb_ngf48_scale1e-2/checkpoints/model_best_AtoB.pth \
+--target_budget 0.016 \
+--darts_discriminator \
+--threshold 0.1 \
+--online_distillation \
+--lambda_L1 0 \
+--lambda_content 1 \
+--lambda_gram 1 \
+--name celeb_ngf48scale16.0_dartsT0.1_l0c1g1 \
+--gpu_ids 0

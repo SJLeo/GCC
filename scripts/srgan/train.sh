@@ -1,0 +1,17 @@
+python3 train.py \
+--dataroot ./database/sr \
+--model srgan \
+--ngf 24 \
+--scale_prune \
+--target_budget 0.20 \
+--pretrain_path ./experiments/sr_ngf24_scale1e-2/checkpoints/model_13.pth \
+--initial_path ./experiments/sr_ngf24scaleprune0.20/checkpoints/model_130.pth \
+--teacher_initial_path ./experiments/sr_ngf64/checkpoints/model_100.pth \
+--darts_discriminator \
+--arch_lr 1e-4 \
+--arch_lr_step \
+--online_distillation \
+--lambda_gram 0.1 \
+--lambda_content 0.1 \
+--name sr_ngf24scale0.2_darts_l1c0.1g0.1 \
+--gpu_ids 0

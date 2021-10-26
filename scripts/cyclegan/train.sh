@@ -1,0 +1,17 @@
+python3 train.py \
+--dataroot ./database/horse2zebra/ \
+--model cyclegan \
+--ngf 24 \
+--ndf 64 \
+--darts_discriminator \
+--arch_lr 1e-4 \
+--arch_lr_step \
+--norm_prune \
+--pretrain_path ./experiments/horse2zebra_ngf24_ndf64_norm1e-3/checkpoints/model_20.pth \
+--target_budget 2.4 \
+--target_budget_B 2.7 \
+--online_distillation \
+--lambda_content 0.01 \
+--lambda_gram 10 \
+--name cyclegan_ngf24norm2.4_ndf32_c0.01g1000 \
+--gpu_ids 0
