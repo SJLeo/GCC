@@ -63,4 +63,4 @@ all scripts for sagan, cyclegan, pix2pix, srgan can be found in ./scripts
 
 ## Acknowledgements
 
-Our code is developed based on [DMAD](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), [Self-Attention-GAN](https://github.com/heykeetae/Self-Attention-GAN),  [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix),  [a-PyTorch-Tutorial-to-Super-Resolution](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution).
+Our code is developed based on [DMAD](https://github.com/SJLeo/DMAD), [Self-Attention-GAN](https://github.com/heykeetae/Self-Attention-GAN),  [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix),  [a-PyTorch-Tutorial-to-Super-Resolution](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution).
